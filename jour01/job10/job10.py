@@ -10,4 +10,4 @@ montant = montant + gain
 montant = montant - ((montant*10)/100)
 rendement -= 1
 gain = (montant*rendement) / 100
-print(f"Le montant des gain finaux est de {gain}")
+print(f"Le montant des gain finaux sont de {gain}")
