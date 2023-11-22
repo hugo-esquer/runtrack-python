@@ -13,3 +13,4 @@ def developpeur(langage):
 developpeur("python")
 developpeur("JavaScript")
 developpeur("reactjs")
+developpeur("...")

@@ -7,4 +7,3 @@ def inverse(mot):
     return mot_inverse
     
 print(inverse("enutrof"))
-
