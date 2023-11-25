@@ -1,17 +1,17 @@
-def arrondir(num):
-    entier = num//1
-    decimal = num%1
-    if decimal >= 0.5:
+def arrondir(num):      # fonction qui arrondie les nombre
+    entier = num//1     # récupérer l'entier
+    decimal = num%1     # récupérer le reste
+    if decimal >= 0.5:  # arrondir au supérieur 
         entier+=1
     return entier
 
-def long(liste):
+def long(liste):        # fonction qui retourne la longueur
     count=0
     for i in liste:
         count+=1
     return count
 
-def organiser(liste):
+def organiser(liste):   # tri a bulle
     i = long(liste) - 1
     while i > 0:
         j=0
