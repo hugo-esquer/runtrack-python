@@ -16,7 +16,7 @@ def organiser(liste):   # tri a bulle
                 liste[j+1]=liste[j] # faire "avancer" le plus gand
                 liste[j]=stock      # faire "reculer" le plus petit
             j+=1
-        i-=1        # retier le dernier index qui est désormais le chiffre le plus grand
+        i-=1        # retier le dernier index des chiffres parcourue, qui est désormais le chiffre le plus grand
 
 print(L)
 organiser(L)
