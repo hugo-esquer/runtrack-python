@@ -10,4 +10,4 @@ def rectangle(width,height):
         i+=1
     print(cotes_h_b)
 
-rectangle(8, 5)
+rectangle(10, 3)
